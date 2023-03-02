@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Teja Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="#" class="nav-link">
+            <h1>NikhilTeja</h1>
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#edu" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+                <a href="#project" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="#exp" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a href="#blog" class="nav-link">Blogs</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+
+    </nav>
+    <section id="hero">
+        <div id="hero-text">
+            <h1>HI👋,<br>Welcome </h1>
+            <p> Myself Nikhil Teja Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, neque
+                necessitatibus animi
+                explicabo enim ad a tempora provident sit. Maiores Check out my portfolio !
+            </p>
+        </div>
+        <img src="assets/nikhil.jpg" alt="Nikhil image" id="hero-img">
+    </section>
+
+    <section id="about">
+        <h2 class="headings">About</h2>
+        <p>A focused and detail-oriented Graduate Computer Science student pursuing a career in STEM. A dedicated
+            enthusiast with research and implementation experience in software development, including machine learning,
+            artificial intelligence, web development, and networking. Expertise in media content creation and editing,
+            technical documentation, and Microsoft Office.</p>
+    </section>
+
+    <section id="edu">
+        <h2 class="headings">Education</h2>
+        <h3>currently</h3>
+        <p id="educ"><span>University of New Haven</span> – West Haven, CT | Computer Science.</p>
+
+    </section>
+
+    <section id="project">
+        <h2 id="projecth2" class="headings">Projects</h2>
+        <div id="project-grid">
+            <div class="proj">
+                <h3>Crop Life Prediction using Machine Learning . | Website</h3>
+                <p><span>Description:</span> This project helps users to check whether their crops are alive or not. If
+                    not
+                    alive what is the reason for their death. This is done using Machine Learning Algorithm.</p>
+            </div>
+            <div class="proj">
+                <h3>Online Voting System Using MySQL</h3>
+                <p><span>Description:</span> In this Project we have designed a Voting System purely works on SQL
+                    Commands
+                    using
+                    triggers etc.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="exp">
+        <h2 class="headings">Experience</h2>
+        <div style="padding-left: 40px;">
+            <ul id="grid-list">
+                <li>
+                    <h3>Data Science Intern</h3>
+                    <p>2019</p>
+                    <p>Sparks Foundation, Internship</p>
+                </li>
+
+
+
+                <li>
+                    <h3>HackClub</h3>
+                    <p>2020</p>
+                    <p>Campus Ambassador</p>
+                </li>
+
+
+
+                <li>
+                    <h3>GeeksforGeeks</h3>
+                    <p>2021</p>
+                    <p>Technical Writing,student chapter lead</p>
+                </li>
+
+
+
+                <li>
+                    <h3>University of New Haven</h3>
+                    <p>currently 2023</p>
+                    <p>Teaching Assistant</p>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2 class="headings">Blogs</h2>
+
+        <div id="blogbox">
+            <div class="blogtext">
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto ratione ex impedit
+                    possimus quas doloribus excepturi quidem vel non dicta minima quam eligendi hic veritatis commodi ad
+                    labore tempore soluta cupiditate id, mollitia provident! Suscipit quod quos expedita cupiditate.
+                    ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="blogtext">
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto ratione ex impedit
+                    possimus quas doloribus excepturi quidem vel non dicta minima quam eligendi hic veritatis commodi ad
+                    labore tempore soluta cupiditate id, mollitia provident! Suscipit quod quos expedita cupiditate.
+                    ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="blogtext">
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto ratione ex impedit
+                    possimus quas doloribus excepturi quidem vel non dicta minima quam eligendi hic veritatis commodi ad
+                    labore tempore soluta cupiditate id, mollitia provident! Suscipit quod quos expedita cupiditate.
+                    ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+
+        </div>
+
+    </section>
+    <a href="#" class="back-to-top"><img src="assets/top.png" width="30px" height="30px" alt="top-button"></a>
+
+
+    <footer class="footer" id="footer">
+        <h4>My social media links</h4>
+        <a href="#" class="footimg"> <img src="assets/github_PNG40.png" width="30px" height="30px"></a>
+        <a href="#" class="footimg"><img src="assets/Linkedin-Icon.png" width="30px" height="30px"></a>
+        <a href="#" class="footimg"><img src="assets/Twitter-Logo.png" width="30px" height="30px"></a>
+    </footer>
+
+</body>
+<script>
+    var hiddenElement = document.querySelector('.back-to-top');
+
+    window.addEventListener('scroll', function () {
+        if (isScrolledIntoView(hiddenElement)) {
+            hiddenElement.classList.add('visible');
+        }
+    });
+
+    function isScrolledIntoView(element) {
+        var rect = element.getBoundingClientRect();
+        var windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+        var topVisible = rect.top < windowHeight;
+        var bottomVisible = rect.bottom >= 0;
+        return (topVisible && bottomVisible);
+    }
+    //  code for hamburger menu
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
+
+    document.querySelectorAll(".nav-item").forEach(n => n.
+        addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }))
+
+    // document.querySelector(".nav-link").forEach(n => n.
+    //     addEventListener("click", () => {
+    //         hamburger.classList.remove("active");
+    //         navMenu.classList.remove("active");
+    //     }))
+
+</script>
+
+</html>
